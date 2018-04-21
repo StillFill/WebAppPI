@@ -1,0 +1,39 @@
+.table-container {
+  display: flex;
+  flex-direction: column;
+  margin-top: 1em;
+}
+.table-row {
+  display: flex;
+  padding: 0.5em 1em;
+  cursor: pointer;
+}
+
+.table-row:hover {
+  background-color: rgba(0,0,0,0.1);
+}
+
+.table-row.header {
+  background-color: #6bc65d;
+  color: white;
+  border-radius: 5px 5px 0 0;
+}
+
+.table-header-cell {
+  flex: 1;
+}
+
+.table-body {
+  border: 1px solid #d8d8d8;
+  border-top: 0;
+}
+
+.app-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 5em;
+}
+
+.row-cell {
+  flex: 1;
+}
